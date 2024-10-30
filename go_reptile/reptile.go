@@ -34,7 +34,7 @@ func proxy() http.Client {
 func urlList(url string) (string, error) {
 	//client := proxy()
 	//resp, err := client.Get("https://www.xxx.com/search/" + url)
-	resp, err := http.Get("https://www.xxxx.com/search/index.html?keyword=" + url)
+	resp, err := http.Get("https://www.dasenic.com/product/chipFindSearch?keyword=" + url)
 	if err != nil {
 		return "", fmt.Errorf("请求失败: %s", err)
 	}
