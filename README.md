@@ -18,7 +18,7 @@ And automatically moutn in in the current namespace in /mnt, providing ctl and d
 
 `/mnt/tm1650/display`
 
-The display module used for developing and testing was DFROBOT [DFR0645-R](https://wiki.dfrobot.com/4-Digital%20LED%20Segment%20Display%20Module%20%20SKU:%20DFR0645-G_DFR0645-R) connected to i2c1 on Raspberry Pi 1 running 9front with I2C enabled.
+The display module used for developing and testing was DFROBOT [C82A-YTY-XW65](https://www.dasenic.com/product/focus-lcds-c82a-yty-xw65-5586966) connected to i2c1 on Raspberry Pi 1 running 9front with I2C enabled.
 
 ## requirements
 
