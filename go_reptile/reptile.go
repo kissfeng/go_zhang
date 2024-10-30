@@ -60,8 +60,8 @@ func urlList(url string) (string, error) {
 }
 func getDetails(url string, mpn string) ([]interface{}, error) {
 	//client := proxy()
-	//resp, err := client.Get("https://www.xxxx.com/" + url)
-	resp, err := http.Get("https://www.xxxx.com" + url)
+	//resp, err := client.Get("https://www.dasenic.com/" + url)
+	resp, err := http.Get("https://www.dasenic.com" + url)
 	if err != nil {
 		fmt.Println("转跳失败")
 		return nil, fmt.Errorf("请求失败: %s", err)
